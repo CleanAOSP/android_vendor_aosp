@@ -14,17 +14,17 @@
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
-    vendor/pure/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
-    vendor/pure/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/pure/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh
+    vendor/aosp/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
+    vendor/aosp/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
+    vendor/aosp/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh
 
 # init.d script support
 PRODUCT_COPY_FILES += \
-    vendor/pure/prebuilt/bin/sysinit:system/bin/sysinit
+    vendor/aosp/prebuilt/bin/sysinit:system/bin/sysinit
 
 # Pure-specific init file
 PRODUCT_COPY_FILES += \
-    vendor/pure/prebuilt/etc/init.purenexus.rc:root/init.purenexus.rc
+    vendor/aosp/prebuilt/etc/init.purenexus.rc:root/init.purenexus.rc
 
 # Security Enhanced Linux
 PRODUCT_PROPERTY_OVERRIDES += \
