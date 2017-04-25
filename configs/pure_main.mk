@@ -14,13 +14,13 @@
 
 # Include overlays
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/pure/overlay/common
+    vendor/aosp/overlay/common
 
 # Inherit prebuilt apps
 $(call inherit-product-if-exists, vendor/gapps/prebuilt.mk)
 
 # Use signing keys for only official builds
-ifeq ($(PURE_BUILD_TYPE),OFFICIAL)
+ifeq ($(AOSP_BUILD_TYPE),OFFICIAL)
     PRODUCT_DEFAULT_DEV_CERTIFICATE := ../.keys/releasekey
 endif
 
@@ -35,7 +35,4 @@ PRODUCT_PACKAGES += \
 
 # Custom Packages
 PRODUCT_PACKAGES += \
-    Busybox \
-    ThemeInterfacer \
-    OmniStyle \
     Turbo
