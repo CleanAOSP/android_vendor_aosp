@@ -12,13 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#PureNexus versioning
-ifndef PURE_BUILD_TYPE
-    PURE_BUILD_TYPE := UNOFFICIAL
+#AOSP versioning
+ifndef AOSP_BUILD_TYPE
+    AOSP_BUILD_TYPE := STOCK
 endif
 
-PURE_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(PURE_BUILD_TYPE)
+AOSP_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(AOSP_BUILD_TYPE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pure.version=$(PURE_VERSION)
+    ro.aosp.version=$(AOSP_VERSION)
 
