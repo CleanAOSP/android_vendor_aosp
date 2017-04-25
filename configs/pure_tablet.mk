@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include vendor/pure/configs/aosp_fixes.mk
-include vendor/pure/configs/bootanimation.mk
-include vendor/pure/configs/pure_main.mk
-include vendor/pure/configs/system_additions.mk
-include vendor/pure/configs/version.mk
+include vendor/aosp/configs/aosp_fixes.mk
+include vendor/aosp/configs/bootanimation.mk
+include vendor/aosp/configs/aosp_main.mk
+include vendor/aosp/configs/system_additions.mk
+include vendor/aosp/configs/version.mk
