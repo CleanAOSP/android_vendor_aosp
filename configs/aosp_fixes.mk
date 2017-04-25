@@ -28,6 +28,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera Effects for devices without a vendor partition
 ifneq ($(filter shamu,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES +=  \
-    vendor/pure/prebuilt/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/pure/prebuilt/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+    vendor/aosp/prebuilt/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/aosp/prebuilt/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 endif
