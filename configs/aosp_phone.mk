@@ -14,7 +14,7 @@
 
 include vendor/aosp/configs/aosp_fixes.mk
 include vendor/aosp/configs/bootanimation.mk
-include vendor/aosp/configs/pure_main.mk
+include vendor/aosp/configs/aosp_main.mk
 include vendor/aosp/configs/system_additions.mk
 include vendor/aosp/configs/version.mk
 
