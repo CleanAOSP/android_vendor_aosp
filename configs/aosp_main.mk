@@ -26,7 +26,6 @@ endif
 
 # Main Required Packages
 PRODUCT_PACKAGES += \
-    Launcher3 \
     LiveWallpapersPicker
 
 # Include explicitly to work around Facelock issues
@@ -35,4 +34,10 @@ PRODUCT_PACKAGES += \
 
 # Custom Packages
 PRODUCT_PACKAGES += \
+    GoogleWallpapers \
+    PixelLauncher \
+    PixelLauncherIcons \
     Turbo
+
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/aosp/overlay/pixel
