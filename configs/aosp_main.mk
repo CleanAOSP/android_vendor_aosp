@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
 # Custom Packages
 PRODUCT_PACKAGES += \
     GoogleWallpapers \
+    LMT \
     PixelLauncher \
     PixelLauncherIcons \
     Turbo
