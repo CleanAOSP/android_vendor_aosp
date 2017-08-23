@@ -59,5 +59,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.build.selinux=1
 
+# Set Pixel blue light theme on Gboard
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.com.google.ime.theme_id=5
+
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/pixel
