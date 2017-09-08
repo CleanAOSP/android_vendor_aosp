@@ -14,7 +14,7 @@
 
 #AOSP versioning
 ifndef AOSP_BUILD_TYPE
-    AOSP_BUILD_TYPE := STOCK
+    AOSP_BUILD_TYPE := NOUGAT
 endif
 
 AOSP_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(AOSP_BUILD_TYPE)
