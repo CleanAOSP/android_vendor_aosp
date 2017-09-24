@@ -39,6 +39,7 @@ PRODUCT_PACKAGES += \
     Lmt \
     PixelLauncher \
     PixelLauncherIcons \
+    ThemeInterfacer
     Turbo
    
 # Backup Tool
