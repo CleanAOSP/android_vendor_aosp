@@ -40,6 +40,7 @@ PRODUCT_PACKAGES += \
     PixelLauncher \
     PixelLauncherIcons \
     ThemeInterfacer \
+    Substratum \
     Turbo
    
 # Backup Tool
