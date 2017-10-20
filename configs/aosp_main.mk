@@ -37,7 +37,7 @@ PRODUCT_PACKAGES += \
     GBoard \
     GoogleWallpapers \
     Lmt \
-    PixelLauncher \
+    Pixel2Launcher \
     PixelLauncherIcons \
     ThemeInterfacer \
     Substratum \

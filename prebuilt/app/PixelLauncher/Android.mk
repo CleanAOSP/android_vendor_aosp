@@ -1,8 +1,8 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := PixelLauncher
-LOCAL_SRC_FILES := PixelLauncher.apk
+LOCAL_MODULE := Pixel2Launcher
+LOCAL_SRC_FILES := Pixel2Launcher.apk
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
